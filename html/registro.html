@@ -5,8 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crear nueva cuenta</title>
+    <link rel="stylesheet" href="../styles/registro.css">
+    <link rel="icon" href="../img/bookflix.jpeg">
 </head>
 <body>
-    <h1>Registro xd</h1>
+    <main class="form-signin w-100 m-auto">
+        <header>
+            <nav>
+                <img src="../img/LOGO2.png" alt="Logo" class="im">
+            </nav>
+        </header>
+        <form action="../html/inicio.html" method="">
+            <div class="contenedor">
+                <h1>Registro</h1>
+                <div class="cajatexto">
+                    <label class="etiqueta" for="nombre">Nombre: </label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                </div>
+                <div class="cajatexto">
+                    <label class="etiqueta" for="apellido">Apellido: </label>
+                    <input type="text"  id="apellido" name="apellido" placeholder="Apellido" >
+                </div>
+                <div class="cajatexto">
+                    <label class="etiqueta" for="correo">Correo: </label>
+                    <input type="email" id="correo" name="correo" placeholder="name@example.com" >
+                </div>
+                <div class="cajatexto">
+                    <label class="etiqueta" for="correo">Contraseña: </label>7
+                    <input type="password"  id="contrasena" name="contrasena" placeholder="Contraseña" >
+                </div>
+                <div class="cajatexto">
+                    <label class="etiqueta" for="correo">Confirmar Contraseña: </label>
+                    <input type="password" id="confirmarcontrasena" name="confirmarcontrasena" placeholder="Contraseña" >
+                </div>
+                <div class="cajatexto2">
+                    <label class="etiqueta" for="fechaNac">
+                        Fecha de nacimiento:
+                        <input type="date" name="fechaNac" id="fechaNac">
+                        
+                    </label>
+                </div>
+                <button class="boton" type="boton" href="../html/registro.html">Registrarme</button>
+            </div>
+        </form>
+        
+    </main>
 </body>
 </html>
