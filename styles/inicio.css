@@ -29,7 +29,7 @@ nav {
 }
 
 .menu li {
-     margin: 0 65px; /*es el que mueve el espaciado entre los botones de navbar */
+     margin: 0 50px; /*es el que mueve el espaciado entre los botones de navbar */
 }
 
 .menu li a {
@@ -65,4 +65,18 @@ nav a:hover {
 .dropdown-content a:hover {
   color: #FFFFFF;
   background-color: #D1C5D0;
+}
+input[type="search"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #7D5589;
+  border-radius: 10px;
+  font-size: 15px;
+}
+button{
+  background-color: rgb(255, 255, 255);
+  border: #000000;
+  position: absolute;
+  top: 45%;
 }
