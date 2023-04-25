@@ -7,6 +7,7 @@
     <title>Bienvenido</title>
     <link rel="stylesheet" href="../styles/inicio.css">
     <link rel="icon" href="../img/bookflix.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -15,7 +16,7 @@
                 <img src="../img/LOGO1.png" alt="Logo" class="im">
             </div>
             <ul class="menu">
-                <li><a href="#">Inicio</a></li>
+                <li><a href="inicio.html">Inicio</a></li>
                 <div class="dropdown">
                   <li><a href="#">Géneros</a></li>
                   <div class="dropdown-content">
@@ -28,10 +29,13 @@
                   </div>
                 </div>
                 <li><a href="#">Novedades</a></li>
-                <li><a href="#">Contáctenos</a></li>
             </ul>
-            <div class="user-icon">
-                <img  class="us" >
+            <form class="d-flex" role="search">
+              <input class="form-control" type="search" placeholder="Búsqueda">
+              <i class="fa-solid fa-magnifying-glass fa-2xl" style="color: #b5a2b8;"></i>
+            </form>
+            <div>
+              <i class="fa-solid fa-user fa-2xl" style="color: #916798;"></i>
             </div>
         </nav>
     </header>
