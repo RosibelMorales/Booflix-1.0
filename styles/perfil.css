@@ -125,4 +125,20 @@ nav a:hover {
     margin: 0;
     font-weight: bold;
 }
+.img-galeria{
+  width: 105%;
+  margin: 50px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(240px,1fr));
+  gap: 30px;
+}
+.img-galeria img{
+  width: 70%;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 15%;
+}
+.img-galeria img:hover{
+  transform: scale(1.2);
+}
   
