@@ -92,7 +92,8 @@ button {
     background-color: rgb(255, 255, 255);
     border: #000000;
     position: absolute;
-    top: 45%;
+    top: 22rem;
+    left: 41%;
 }
 
 .dropdown2 {
@@ -221,7 +222,7 @@ button {
 h2{
   font-size: 50px;
   position: absolute;
-  top: 35%;
+  top: 30%;
   left: 4%;
   color: #7D5589;
 }
