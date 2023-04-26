@@ -33,8 +33,7 @@ nav {
 }
 
 .menu li {
-    margin: 0 55px;
-    /*es el que mueve el espaciado entre los botones de navbar */
+    margin: 0 55px; /*es el que mueve el espaciado entre los botones de navbar */
 }
 
 .menu li a {
@@ -42,7 +41,6 @@ nav {
     text-decoration: none;
     font-size: 35px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 
 nav a:hover {
@@ -125,4 +123,152 @@ button {
 .dropdown-content2 a:hover {
     color: #FFFFFF;
     background-color: #D1C5D0;
+}
+label:hover {
+    color: #7D5589;
+}
+label:hover~label {
+    color: #7D5589;
+}
+input[type="radio"]:checked~label {
+    color: #7D5589;
+}
+.book-info {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+.book-info #title {
+    margin-bottom: 5px;
+    margin-top: 0%;
+}
+.book-info .author-info {
+    margin-right: 10px;
+}
+.author-info p {
+    margin-top: 3%;
+    font-size: 19px;
+}
+.book-info button {
+    margin-left: auto;
+}
+h2{
+    font-size: 40px;
+}
+.submit {
+    width: 15%;
+    padding: 1%;
+    margin-bottom: 1px;
+    border: none;
+    border-radius: 10px;
+    background-color: #7D5589;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    left: 82%;
+}
+.submit:hover {
+    background-color: #D1C5D0;
+    color: #7D5589;
+}
+.img-inicial {
+    width: 300px;
+    height: 420px;
+    overflow: hidden;
+    margin: 20px;
+    position: absolute;
+    top: 11%;
+}
+
+.img-inicial img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.img-inicial img:hover {
+    transform: scale(1.2);
+}
+
+.contenidoEstrellas {
+    position: absolute;
+    top: 69%;
+    left: 4.8%;
+    margin: 0;
+    margin-top: 0%;
+}
+
+label {
+    color: grey;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.clasificacion {
+    direction: rtl;
+    /* right to left */
+    unicode-bidi: bidi-override;
+    /* bidi de bidireccional */
+    font-size: 50px;
+    /* tamaño de las estrellas */
+    text-align: center;
+}
+
+label:hover {
+    color: #7D5589;
+}
+
+label:hover~label {
+    color: #7D5589;
+}
+
+input[type="radio"]:checked~label {
+    color: #7D5589;
+}
+h1{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+input[type="text"]{
+    width: 230%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.formulario-comentarios{
+    display: flex;
+        align-items: center;
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin: 20px;
+        width: 64.5%;
+        position: absolute;
+        top: 70%;
+        left: 30%;
+}
+button {
+    background-color: rgb(255, 255, 255);
+    border: #000000;
+    position: absolute;
+    top: 40%;
+    left: 92%;
+}
+.comentario{
+    font-size: 25px;
+    color: #000000;
+    margin: 0%;
 }
