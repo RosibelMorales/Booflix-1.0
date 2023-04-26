@@ -50,6 +50,7 @@ nav a:hover {
 .dropdown {
     display: inline-block;
     position: relative;
+    z-index: 1
 }
 
 .dropdown-content {
@@ -98,6 +99,7 @@ button {
 .dropdown2 {
     display: inline-block;
     position: relative;
+    z-index: 1
 }
 
 .dropdown-content2 {
