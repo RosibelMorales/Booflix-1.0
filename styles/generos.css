@@ -157,3 +157,22 @@ button{
   text-decoration: underline;
   color: #000000;
 }
+
+.busqueda{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.busqueda h2{
+  font-size: 20px;
+  color: #7D5589;
+}
+.busqueda input[type="search"]{
+  width: 180%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #7D5589;
+  border-radius: 10px;
+  font-size: 15px;
+}

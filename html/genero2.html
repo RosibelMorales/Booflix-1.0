@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generos 2</title>
+    <link rel="stylesheet" href="../styles/genero2.css">
+    <link rel="icon" href="../img/bookflix.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../img/LOGO1.png" alt="Logo" class="im">
+            </div>
+            <ul class="menu">
+                <li><a href="inicio.html">Inicio</a></li>
+                <div class="dropdown">
+                    <li><a href="#">Géneros</a></li>
+                    <div class="dropdown-content">
+                        <a href="genero2.html">Acción</a>
+                        <a href="">Clasicos</a>
+                        <a href="">Cómic</a>
+                        <a href="">Novela gráfica</a>
+                        <a href="">Detective</a>
+                        <a href="">Fantasía</a>
+                    </div>
+                </div>
+                <li><a href="novedades.html">Novedades</a></li>
+            </ul>
+            <form action="/buscar" method="GET">
+                <input type="search" id="q" name="q" placeholder="Búsqueda">
+                <button class="fa-solid fa-magnifying-glass fa-2xl" style="color: #7D5589;"></button>
+            </form>
+            <div class="dropdown2">
+                <a href="registro.html"><i class="fa-solid fa-user fa-2xl" style="color: #916798;"></i></a>
+                <div class="dropdown-content2">
+                    <a href="">Mi perfil</a>
+                    <a href="">Configuración</a>
+                    <a href="">Cerrar sesión</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="cardespacio">
+        <p><strong>Género:</strong> <span id="author">Fantasía</span></p>
+    </div>
+
+    <div class="card">
+        <div class="card-img">
+            <img src="../img/a10.jpg">
+        </div>
+        <div class="card-content">
+            <h2 id="title">Los Juegos del Hambre</h2>
+            <p><strong>Autor:</strong> <span id="author">Suzane Collins</span></p>
+            <p><strong>Género:</strong> <span id="genre">Fantasia</span></p>
+            <p><strong>Año de publicación:</strong> <span id="year">2012</span></p>
+            <p><strong>Clasificación:</strong> <span id="clasifi">Juvenil</span></p>
+            <p><strong>Sinopsis:</strong> <span id="synopsis">Un pasado de guerras ha dejado los 12 distritos que dividen Panem bajo el poder tiránico del "Capitolio". Sin libertad y
+            en la pobreza, nadie puede salir de los límites de su distrito. Sólo una chica de 16 años, Katniss Everdeen, osa
+            desafiar las normas para conseguir comida. Sus principios se pondrán a prueba con "Los juegos del hambre".....</span></p><a href="../html/individual.html" class="card-button" href="#">Leer
+                más....</a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-img">
+            <img src="../img/a9.jpg">
+        </div>
+        <div class="card-content">
+            <h2 id="title">Animales fantasticos y donde encontrarlos</h2>
+            <p><strong>Autor:</strong> <span id="author">JK Rowling</span></p>
+            <p><strong>Género:</strong> <span id="genre">Fantasia</span></p>
+            <p><strong>Año de publicación:</strong> <span id="year">1947</span></p>
+            <p><strong>Clasificación:</strong> <span id="clasifi">Juvenil</span></p>
+            <p><strong>Sinopsis:</strong> <span id="synopsis">Nueva York, año 1926. El excéntrico magizoólogo Newt Scamander (Eddie Redmayne) acaba de ser expulsado de Hogwarts
+            debido a un incidente relacionado con una de sus criaturas mágicas. El joven mago decide entonces emprender un viaje por
+            el mundo en busca de nuevas variedades de criaturas extraordinarias....</span></p><a href="../html/individual.html" class="card-button" href="#">Leer más....</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
